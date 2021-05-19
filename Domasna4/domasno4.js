@@ -62,8 +62,8 @@ console.log(rezultat);
 
 /* Task 6 */
 
-let vrednost=3;
-console.log(rezultat / vrednost );
+
+console.log(rezultat / people.length );
 
 /* Task 7 */
 
