@@ -91,7 +91,7 @@ switch (day) {
 // so if i else
 let workDay = ['Ponedelnik', 'Vtornik', 'Sreda', 'Cetvrtok', 'Petok'];
 let notWorkDay = ['Sabota', 'Nedela'];
-if (day == workDay[3]) {
+if (workDay) {
     console.log('work week', workDay[3]);
 } else {
     console.log('weekend', notWorkDay);
@@ -144,12 +144,12 @@ let season1 = ['Dekemvri', 'Januari', 'Februari'];
 let season2 = ['Mart', 'April', 'Maj'];
 let season3 = ['Juni', 'Juli', 'Avgust'];
 let season4 = ['Septemvri', 'Oktomvri', 'Noemvri'];
-if (month == season1){
+if (season1){
     console.log('winter',sesona1);
-} else if (month == season2){
+} else if (season2){
     console.log('spring', sesona2[2]);
-} else if (month == season3){
+} else if (season3){
     console.log('summer', sesona3);
-} else if (month == season4){
+} else if (season4){
     console.log('autumn', sesona4);
 } 
