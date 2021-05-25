@@ -12,6 +12,6 @@ for (let i = 0; i < items.length; i++) {
 let mouse_over = () => {
     list.style.color = 'font';
     list.style.backgroundColor = 'red';
-    list.style.font size = '14px';
+    list.style.font-size = '14px';
 };
 list.addEventListener('mouseover', mouse_over);
