@@ -35,7 +35,7 @@ let perimeter_circle = perimeter_c(2, 3.14);
 console.log('L = ', perimeter_circle);
 
 /* Task 3 */
-let = compares_num = (a = 0, b = 'a') => {
+let compares_num = (a = 0, b = 'a') => {
     return new Promise((resolve, reject) => {
         if (a > b) {
             const bigger = 'a is the bigger number';
