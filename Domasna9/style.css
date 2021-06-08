@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'montserrat', sans-serif;
+    background-image: url(https://graphicriver.img.customer.envatousercontent.com/files/265246973/preview.jpg?auto=compress%2Cformat&q=80&fit=crop&crop=top&max-h=8000&max-w=590&s=30a7a2f80749786edd13a2aac321aae5);
+    background-size: cover;
+    background-position: top center;
+  }
+  .input1{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid black;
+    color:rgb(77, 63, 63);
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+  }
+  header input:focus{
+    background-color: rgba(255,255,255,0.7);
+  }
+  .button{
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+  }
